@@ -1,4 +1,4 @@
-# [Weaver](https://disneystreaming.github.io/weaver-test/) + [Playwright](https://playwright.dev/java/docs/intro)
+# [Weaver](https://typelevel.org/weaver-test/) + [Playwright](https://playwright.dev/java/docs/intro)
 [![core Scala version support](https://index.scala-lang.org/indoorvivants/weaver-playwright/core/latest-by-scala-version.svg?platform=jvm)](https://index.scala-lang.org/indoorvivants/weaver-playwright/core)
 
 Love Weaver? Like Playwright? Forced to write tests?
@@ -10,7 +10,7 @@ Here's an example of usage which is also a [Scala CLI](https://scala-cli.virtusl
 **test.scala**
 ```scala mdoc
 //> using lib "com.indoorvivants.playwright::weaver:0.0.4"
-//> using lib "com.disneystreaming::weaver-cats:0.8.0"
+//> using lib "org.typelevel::weaver-cats:0.12.0"
 
 import com.indoorvivants.weaver.playwright._
 import cats.effect._
