@@ -1,5 +1,3 @@
-addSbtPlugin("com.github.sbt" % "sbt-ci-release" % "1.5.12")
-
 addSbtPlugin("com.eed3si9n" % "sbt-projectmatrix" % "0.9.2")
 
 // Code quality
@@ -19,3 +17,5 @@ addSbtPlugin("de.heikoseeberger" % "sbt-header" % "5.9.0")
 
 // Compiled documentation
 addSbtPlugin("org.scalameta" % "sbt-mdoc" % "2.3.8")
+
+addSbtPlugin("com.timushev.sbt" % "sbt-updates" % "0.6.3")
